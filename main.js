@@ -31,7 +31,7 @@ function dateToString(date) {
 	if (m.length == 1) {
 		m = "0" + m;
 	}
-	return (date.getMonth() + 1) + "/" + date.getDay() + " " + h + ":" + m;
+	return (date.getMonth() + 1) + "/" + date.getDate() + " " + h + ":" + m;
 }
 
 function createTd(value) {
