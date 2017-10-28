@@ -1,7 +1,12 @@
 var data = [];
 var url = "./ranking.json?" + Math.random();
 $.get(url, function (d) {
-	data = JSON.parse(d);
+	if (d instanceof Array) {
+		data = d;
+	}
+	else {
+		data = JSON.parse(d);
+	}
 	var dd = $("#select-date-dropdown");
 	for (var i = 0; i < data.length; i++) {
 		var li = $("<li><a href='#'>" + dateToString(new Date(data[i].date)) + "</li>");
