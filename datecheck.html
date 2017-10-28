@@ -1,0 +1,6 @@
+<script>
+var d = new Date();
+var term = new Date(d.getFullYear(), d.getMonth(), d.getDate(), d.getHours(), Math.floor(d.getMinutes() / 30) * 30);
+document.write("<div>" + term + "</div>");
+document.write(term.getTime());
+</script>
