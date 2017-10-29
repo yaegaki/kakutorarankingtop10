@@ -119,7 +119,7 @@ function select(dataId) {
 			span.setAttribute("class", rankClass);
 			prevRankTd.appendChild(span);
 			// 上昇量
-			tr.appendChild(createTd((entry.point - prevData.point) / diffMinute * 30));
+			tr.appendChild(createTd(Math.floor((entry.point - prevData.point) / diffMinute * 30)));
 		}
 
 
