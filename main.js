@@ -167,13 +167,15 @@ function createLineChart() {
 
 
 	// set the dimensions and margins of the graph
-	var margin = {top: 20, right: 20, bottom: 30, left: 50},
+	var margin = {top: 20, right: 20, bottom: 30, left: 70},
 		width = 960 - margin.left - margin.right,
 		height = 500 - margin.top - margin.bottom;
 
 	// set the ranges
 	var x = d3.scaleTime().range([0, width]);
 	var y = d3.scaleLinear().range([height, 0]);
+	x.domain([new Date(data[data.length-1].date), new Date(data[0].date)]);
+	y.domain([minPoint, maxPoint]);
 
 	// define the line
 	var valueline = d3.line()
@@ -187,8 +189,20 @@ function createLineChart() {
 		.attr("transform",
 			"translate(" + margin.left + "," + margin.top + ")");
 
-	x.domain([new Date(data[data.length-1].date), new Date(data[0].date)]);
-	y.domain([minPoint, maxPoint]);
+	// Add the X Axis
+	var xAxis = d3.axisBottom(x)
+		.tickSizeInner(-height)
+		.tickSizeOuter(0);
+	svg.append("g")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
+
+	var yAxis = d3.axisLeft(y)
+		.tickSizeInner(-width)
+		.tickSizeOuter(0);
+	// Add the Y Axis
+	svg.append("g")
+		.call(yAxis);
 
 	for (var playerName in playerMap) {
 		var player = playerMap[playerName];
@@ -207,14 +221,5 @@ function createLineChart() {
 			.attr("cx", function(d) { return x(d.date); })
 			.attr("cy", function(d) { return y(d.point); });
 	}
-
-	// Add the X Axis
-	svg.append("g")
-		.attr("transform", "translate(0," + height + ")")
-		.call(d3.axisBottom(x));
-
-	// Add the Y Axis
-	svg.append("g")
-		.call(d3.axisLeft(y));
 }
 
