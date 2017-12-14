@@ -1,26 +1,43 @@
 var data = [];
-var url = "./ranking.json?" + Math.random();
-$.get(url, function (d) {
-	if (d instanceof Array) {
-		data = d;
-	}
-	else {
-		data = JSON.parse(d);
-	}
-	var dd = $("#select-date-dropdown");
-	for (var i = 0; i < data.length; i++) {
-		var li = $("<li><a href='#'>" + dateToString(new Date(data[i].date)) + "</li>");
-		li.on("click", (function (_i) {
-			return function (e) {
-				select(_i);
-				e.preventDefault();
-			}
-		})(i));
-		dd.append(li);
-	}
-	select(0);
-	createLineChart();
+
+function getData(url) {
+	$.get(url, function (d) {
+		if (d instanceof Object) {
+			data = d.ranking;
+		}
+		else {
+			data = JSON.parse(d).ranking;
+		}
+		var dd = $("#select-date-dropdown");
+		dd.html("");
+		for (var i = 0; i < data.length; i++) {
+			var li = $("<li><a href='#'>" + dateToString(new Date(data[i].date)) + "</li>");
+			li.on("click", (function (_i) {
+				return function (e) {
+					select(_i);
+					e.preventDefault();
+				}
+			})(i));
+			dd.append(li);
+		}
+		select(0);
+		createLineChart();
+		$("#select-ranking").html(d.title);
+	});
+}
+
+var rankingDropdown = $("#ranking-dropdown a");
+rankingDropdown.on("click", function (e) {
+	e.preventDefault();
+	selectRanking(this);
 });
+
+function selectRanking(a) {
+	var json = a.getAttribute("data-json");
+	getData("./data/" + json + "?" + Math.random());
+}
+
+selectRanking(rankingDropdown[0]);
 
 function dateToString(date) {
 	var h = date.getHours().toString();
@@ -181,6 +198,10 @@ function createLineChart() {
 	var valueline = d3.line()
 		.x(function(d) { return x(d.date); })
 		.y(function(d) { return y(d.point); });
+
+
+	// 前回のデータ削除
+	d3.selectAll("#graph > g").remove();
 
 	var svg = d3.select("#graph")
 		.attr("width", width + margin.left + margin.right)

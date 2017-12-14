@@ -87,10 +87,19 @@
 		.dot.rank-1 {
 			fill: #e2431e;
 		}
+
+		.btn {
+			text-transform: none;
+		}
 	</style>
 </head>
 <body>
 	<h2>トライナリー ランキングTop10</h2>
+	<a id="select-ranking" class="dropdown-button btn" href="#" data-activates="ranking-dropdown"></a>
+	<ul id='ranking-dropdown' class='dropdown-content'>
+		<li><a href="#" data-json="very_merry_trinary.json">Very Merry Trinary</a></li>
+		<li><a href="#" data-json="trick_or_trinary.json">Trick or Trinary</a></li>
+	</ul>
 	<div id="line-chart">
 		<svg id="graph">
 		</svg>
