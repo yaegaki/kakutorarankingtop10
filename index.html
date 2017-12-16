@@ -116,7 +116,15 @@
 				<th>上の順位の差</th>
 				<th>名前</th>
 				<th>前回の順位</th>
-				<th>上昇量(30分当たり)</th>
+				<th>
+					<a id="select-period" class="dropdown-button btn" href="#" data-activates="period-dropdown">上昇量(30分)</a>
+					<ul id='period-dropdown' class='dropdown-content'>
+						<li><a href="#" data-minute="30">30分</a></li>
+						<li><a href="#" data-minute="60">1時間</a></li>
+						<li><a href="#" data-minute="720">12時間</a></li>
+						<li><a href="#" data-minute="1440">24時間</a></li>
+					</ul>
+				</th>
 			</thead>
 			<tbody id="ranking-table"/>
 		</table>

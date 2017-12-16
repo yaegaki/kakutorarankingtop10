@@ -57,21 +57,50 @@ function createTd(value) {
 	return td;
 }
 
+var currentDataId = -1;
+
+var period = 30;
+$("#period-dropdown a").on("click", function (e) {
+	e.preventDefault();
+	period = Number(this.getAttribute("data-minute"));
+	var periodStr;
+	if (period < 60) {
+		periodStr = period + "分";
+	}
+	else {
+		periodStr = (period / 60) + "時間";
+	}
+	$("#select-period").html("上昇量("+periodStr+")");
+	select(currentDataId);
+});
+
 function select(dataId) {
 	if (data.length <= dataId) {
 		return;
 	}
 
+	currentDataId = dataId;
 
 	var tb = document.getElementById("ranking-table");
 	$(tb).empty();
 	var current = data[dataId];
 	var currentDate = new Date(current.date);
 	$("#select-date-str").html(dateToString(currentDate));
-	var prevExists = data.length > dataId + 1;
+	var prevId = -1;
+	for (var i = dataId + 1; i < data.length; i++) {
+		var temp = data[i];
+		// 分に直す
+		var d = (current.date - temp.date) / 1000 / 60;
+		if (d >= period) {
+			prevId = i;
+			break;
+		}
+	}
+
+	var prevExists = prevId > 0;
 	var prevMap = {};
 	if (prevExists) {
-		var prev = data[dataId + 1];
+		var prev = data[prevId];
 		var prevDate = new Date(prev.date);
 		var diffMinute = (currentDate - prevDate) / (60 * 1000);
 		for (var i = 0; i < prev.top10.length; i++) {
@@ -136,7 +165,7 @@ function select(dataId) {
 			span.setAttribute("class", rankClass);
 			prevRankTd.appendChild(span);
 			// 上昇量
-			tr.appendChild(createTd(Math.floor((entry.point - prevData.point) / diffMinute * 30)));
+			tr.appendChild(createTd(Math.floor((entry.point - prevData.point) / diffMinute * period)));
 		}
 
 
