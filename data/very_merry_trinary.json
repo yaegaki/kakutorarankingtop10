@@ -2,6 +2,906 @@
     "title": "Very Merry Trinary",
     "ranking": [
         {
+            "date": 1513697400000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 565225
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 445845
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 350097
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 181629
+                },
+                {
+                    "name": "古野",
+                    "point": 176289
+                },
+                {
+                    "name": "雪月華",
+                    "point": 143421
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "健司",
+                    "point": 129823
+                }
+            ]
+        },
+        {
+            "date": 1513695600000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 565225
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 444495
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 349047
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 176289
+                },
+                {
+                    "name": "めいず",
+                    "point": 176004
+                },
+                {
+                    "name": "雪月華",
+                    "point": 143211
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "健司",
+                    "point": 129823
+                }
+            ]
+        },
+        {
+            "date": 1513693800000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 555580
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 441795
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 346647
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 176289
+                },
+                {
+                    "name": "めいず",
+                    "point": 175254
+                },
+                {
+                    "name": "雪月華",
+                    "point": 143211
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "健司",
+                    "point": 129043
+                }
+            ]
+        },
+        {
+            "date": 1513692000000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 545050
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 438645
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 342147
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 176289
+                },
+                {
+                    "name": "めいず",
+                    "point": 170754
+                },
+                {
+                    "name": "雪月華",
+                    "point": 143211
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513690200000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 534520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 435495
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 337647
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 176289
+                },
+                {
+                    "name": "めいず",
+                    "point": 169254
+                },
+                {
+                    "name": "雪月華",
+                    "point": 143001
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513688400000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 523990
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 433695
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 332547
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 176289
+                },
+                {
+                    "name": "めいず",
+                    "point": 168504
+                },
+                {
+                    "name": "雪月華",
+                    "point": 142581
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513686600000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 513055
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 430545
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 329547
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 173789
+                },
+                {
+                    "name": "めいず",
+                    "point": 167379
+                },
+                {
+                    "name": "雪月華",
+                    "point": 142581
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513684800000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 505360
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 427395
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 325947
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 172289
+                },
+                {
+                    "name": "めいず",
+                    "point": 167379
+                },
+                {
+                    "name": "雪月華",
+                    "point": 142581
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513683000000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 505360
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 423795
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 324447
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 171789
+                },
+                {
+                    "name": "めいず",
+                    "point": 167379
+                },
+                {
+                    "name": "雪月華",
+                    "point": 142581
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 131163
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513681200000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 502930
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 419745
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 322047
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "古野",
+                    "point": 171789
+                },
+                {
+                    "name": "めいず",
+                    "point": 167379
+                },
+                {
+                    "name": "雪月華",
+                    "point": 142581
+                },
+                {
+                    "name": "meidea",
+                    "point": 133972
+                },
+                {
+                    "name": "ごりざる",
+                    "point": 128193
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126682
+                }
+            ]
+        },
+        {
+            "date": 1513616400000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 292747
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 136839
+                },
+                {
+                    "name": "雪月華",
+                    "point": 130611
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119371
+                }
+            ]
+        },
+        {
+            "date": 1513614600000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 292747
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 133089
+                },
+                {
+                    "name": "雪月華",
+                    "point": 130611
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119371
+                }
+            ]
+        },
+        {
+            "date": 1513612800000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 292747
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 133089
+                },
+                {
+                    "name": "雪月華",
+                    "point": 130401
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119371
+                }
+            ]
+        },
+        {
+            "date": 1513611000000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 292747
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 133089
+                },
+                {
+                    "name": "雪月華",
+                    "point": 127461
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119371
+                }
+            ]
+        },
+        {
+            "date": 1513609200000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 291847
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 132589
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "雪月華",
+                    "point": 124731
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119371
+                }
+            ]
+        },
+        {
+            "date": 1513607400000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 290047
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 132589
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "雪月華",
+                    "point": 122631
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119051
+                }
+            ]
+        },
+        {
+            "date": 1513605600000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 450520
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 285847
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 163254
+                },
+                {
+                    "name": "古野",
+                    "point": 132589
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "雪月華",
+                    "point": 122631
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 119051
+                }
+            ]
+        },
+        {
+            "date": 1513603800000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 449485
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 344145
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 281947
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 162879
+                },
+                {
+                    "name": "古野",
+                    "point": 132589
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "雪月華",
+                    "point": 122631
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 118731
+                }
+            ]
+        },
+        {
+            "date": 1513600200000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 434305
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 343245
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 277297
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 162879
+                },
+                {
+                    "name": "古野",
+                    "point": 132089
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124772
+                },
+                {
+                    "name": "雪月華",
+                    "point": 122631
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 118731
+                }
+            ]
+        },
+        {
+            "date": 1513598400000,
+            "top10": [
+                {
+                    "name": "Bot37440",
+                    "point": 426025
+                },
+                {
+                    "name": "Bot30763",
+                    "point": 339195
+                },
+                {
+                    "name": "あきらぶりー",
+                    "point": 275797
+                },
+                {
+                    "name": "john",
+                    "point": 200047
+                },
+                {
+                    "name": "めいず",
+                    "point": 162879
+                },
+                {
+                    "name": "古野",
+                    "point": 132089
+                },
+                {
+                    "name": "Takashi",
+                    "point": 126232
+                },
+                {
+                    "name": "meidea",
+                    "point": 124572
+                },
+                {
+                    "name": "雪月華",
+                    "point": 122631
+                },
+                {
+                    "name": "Di@小さい正義",
+                    "point": 118091
+                }
+            ]
+        },
+        {
             "date": 1513531800000,
             "top10": [
                 {
